@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box0;
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+#OneLabInp {
+    font-size: 30px;
+}

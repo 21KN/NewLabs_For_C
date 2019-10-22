@@ -13,7 +13,7 @@
     flex-direction: column;
 }
 
-#OneLabInp {
+#OneLabInp, #inputTwoLab {
     font-size: 30px;
 }
 
@@ -24,12 +24,13 @@
     flex-direction: column;
 }
 
-#imgAtOneLab {
+#imgAtOneLab, #imgAtTwoLab {
     padding: 25px 0;
 }
 
-#button {
+#button, #submitTwoLab {
     margin: 25px 0;
+    font-size: 20px;
 }
 
 .One_Lab, .Two_Lab_box {
@@ -39,5 +40,9 @@
 
 .One_Lab p {
     font-size: 25px;
+}
+
+#error {
+    color: red;
 }
 

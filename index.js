@@ -2,11 +2,14 @@
 function getValue() {
     let input = document.querySelector('#OneLabInp').value;
     let sum = input.split('', 3); // НЕ ПОДХОДИТ для перебора в намбер
-    let sumNew = {
-        one: sum[0],
-        two: sum[1],
-        there: sum[2],
-    };
+    let sumNew = Number(sum);
+
+    // {
+    //     one: sum[0],
+    //     two: sum[1],
+    //     there: sum[2],
+    // };
+
     console.log(sumNew);
 
     sum.forEach(number => number );

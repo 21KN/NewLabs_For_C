@@ -52,6 +52,22 @@
     }
 
 
+<<<<<<< HEAD
+=======
+function getValueThereLab() {
+    let inputValue = document.querySelector('#inputThereLab').value;
+    const unsigned = 1;
+    const signed = 1;
+
+    console.log(inputValue)
+
+}
+
+
+
+
+
+>>>>>>> 13b5124afb3a2174058607534c19953462bceffa
 
 
 

@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3202f80-34a2-4b76-89b2-cc1732ac44c5" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+||||||| merged common ancestors
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/img/Lab_One.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Lab_Two.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+>>>>>>> 0d466e5b0488814ce0aca2ba701b31d2788a7465
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+>>>>>>> bfa864c707585f1f8900f0405fd5053748f42a32
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+>>>>>>> 9488ad61f4ccc57fc420be2f097039aa556c1798
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="378">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
@@ -27,6 +47,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
+||||||| merged common ancestors
+            <state relative-caret-position="273">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="144">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+=======
+            <state relative-caret-position="231">
+              <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+=======
+            <state relative-caret-position="273">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+>>>>>>> 0d466e5b0488814ce0aca2ba701b31d2788a7465
+>>>>>>> 9488ad61f4ccc57fc420be2f097039aa556c1798
             </state>
           </provider>
         </entry>
@@ -43,8 +79,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="533">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+>>>>>>> bfa864c707585f1f8900f0405fd5053748f42a32
+=======
             <state relative-caret-position="302">
               <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+>>>>>>> 0d466e5b0488814ce0aca2ba701b31d2788a7465
             </state>
           </provider>
         </entry>
@@ -136,23 +178,68 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571669101798</updated>
+<<<<<<< HEAD
+      <workItem from="1571669102859" duration="2112000" />
+=======
       <workItem from="1571669102859" duration="1159000" />
       <workItem from="1571672008088" duration="4352000" />
       <workItem from="1571688787790" duration="494000" />
+<<<<<<< HEAD
       <workItem from="1571727432830" duration="6886000" />
+||||||| merged common ancestors
+      <workItem from="1571727432830" duration="6453000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1571727432830" duration="3749000" />
+>>>>>>> bfa864c707585f1f8900f0405fd5053748f42a32
+=======
+      <workItem from="1571727432830" duration="6453000" />
+>>>>>>> 0d466e5b0488814ce0aca2ba701b31d2788a7465
+>>>>>>> 9488ad61f4ccc57fc420be2f097039aa556c1798
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="12891000" />
+||||||| merged common ancestors
+    <option name="totallyTimeSpent" value="12458000" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2112000" />
+=======
+    <option name="totallyTimeSpent" value="9754000" />
+>>>>>>> bfa864c707585f1f8900f0405fd5053748f42a32
+=======
+    <option name="totallyTimeSpent" value="12458000" />
+>>>>>>> 0d466e5b0488814ce0aca2ba701b31d2788a7465
+>>>>>>> 9488ad61f4ccc57fc420be2f097039aa556c1798
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13285714" />
+||||||| merged common ancestors
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13285714" />
+=======
+<<<<<<< HEAD
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973205" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13285714" />
+>>>>>>> 9488ad61f4ccc57fc420be2f097039aa556c1798
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> bfa864c707585f1f8900f0405fd5053748f42a32
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -187,8 +274,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="144">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+=======
+        <state relative-caret-position="231">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+>>>>>>> bfa864c707585f1f8900f0405fd5053748f42a32
+=======
         <state relative-caret-position="302">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+>>>>>>> 0d466e5b0488814ce0aca2ba701b31d2788a7465
         </state>
       </provider>
     </entry>

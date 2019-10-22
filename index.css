@@ -15,6 +15,8 @@
 
 #OneLabInp, #inputTwoLab {
     font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .row {
@@ -34,11 +36,29 @@
 }
 
 .One_Lab, .Two_Lab_box {
-    border: 5px solid black;
+    border: 1px solid lightgray;
     margin: 25px 0;
 }
 
+.One_Lab:hover {
+    -webkit-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    transition-duration: 1s;
+}
+
+.Two_Lab_box:hover {
+    -webkit-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    transition-duration: 1s;
+}
+
 .One_Lab p {
+    font-size: 25px;
+}
+
+.Two_Lab_box p {
     font-size: 25px;
 }
 
@@ -46,3 +66,33 @@
     color: red;
 }
 
+
+.test {
+    -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-bck-center {
+    0% {
+        -webkit-transform: translateZ(600px);
+        transform: translateZ(600px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+@keyframes slide-in-bck-center {
+    0% {
+        -webkit-transform: translateZ(600px);
+        transform: translateZ(600px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}

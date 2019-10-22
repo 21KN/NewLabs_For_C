@@ -19,8 +19,9 @@
                     </h3>
                     <img id="imgAtOneLab" src="img/Lab_One.jpg" alt="LabOneImg" width="600" height="auto">
                     <input id="OneLabInp" class="form-control" type="number" size="3" maxlength="3" placeholder="Вхiднi данi">
-                    <input id="button" class="btn btn-success" onclick="getValue()" type="button"  value="Посчитать">
-                    <p>Виведення на екран: <span id="spanTextValue"></span></p>
+                    <input id="button" class="btn btn-success" onclick="getValueLabOne()" type="button"  value="Порахувати">
+                    <p class="test">Виведення на екран: <span id="spanTextValue"></span></p>
+
                 </div>
             </div>
         </div>
@@ -33,8 +34,9 @@
                             2) Напишіть програму для визначення максимальної цифри чотирицифрового числа
                         </h3>
                         <img id="imgAtTwoLab" src="img/Lab_Two.png" alt="LabTwo" width="600" height="auto">
-                        <input type="number" class="form-control" size="3" maxlength="3" placeholder="Вхiднi данi" id="inputTwoLab">
-                        <input type="submit" class="btn btn-success" id="submitTwoLab">
+                        <input type="number" id="inputTwoLab" class="form-control" size="4" maxlength="3" placeholder="Вхiднi данi" >
+                        <input type="submit" onclick="getValueLabTwo()" value="Порахувати" class="btn btn-success" id="submitTwoLab">
+                        <p class="test">Виведення на екран: <span id="spanLabTwo"></span></p>
                     </div>
                 </div>
             </div>
@@ -51,8 +53,5 @@
     </div>
 
     <script src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

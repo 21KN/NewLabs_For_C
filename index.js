@@ -9,22 +9,26 @@
             parseInt(sum[2],),
         ];
 
-        console.log(`${arr[0]} + ${arr[1]} + ${arr[2]} = `,arr[0] + arr[1] + arr[2]);
+        let NaNError = arr[0] + arr[1] + arr[2];
+
+        console.log(typeof NaNError, NaNError)
+
+        console.log(`${arr[0]} + ${arr[1]} + ${arr[2]} = `, NaNError);
+
         let spanT = document.querySelector('#spanTextValue');
-        spanT.innerHTML = `<div class="test"> ${arr[0]} + ${arr[1]} + ${arr[2]} = ${arr[0] + arr[1] + arr[2]} </div>`;
+        spanT.innerHTML = `<div class="test"> ${arr[0]} + ${arr[1]} + ${arr[2]} = ${NaNError} </div>`;
 
         if(input.length > 3) {
             console.error('Value > 3');
             spanT.innerHTML = `<div  class="test"><span id="error">Помилка</span>: значення бiльше <u>3</u>!</div> `
-        } else if (input.length < 3) {                                                                           // сделать проверку для тип данных NaN
+        } else if (input.length < 3) {
             console.error('Value > 3');
             spanT.innerHTML = `<div  class="test"><span id="error">Помилка</span>: значення менше <u>3</u>!</div> `
+        } else if (isNaN(NaNError)) {
+            console.error('Число == Nan');
+            spanT.innerHTML = `<div  class="test"><span id="error">Помилка</span>: значення дорівнює типу <u>NaN</u>!</div> `
         }
 
-        // if (typeof arr[0] === 'number' && 'NaN') {
-        //     console.error('Тип данных undefined');
-        //     spanT.innerHTML = `<span id="error">Помилка</span>: тип данних undefuned`
-        // }
     }
 
     function getValueLabTwo() {
@@ -37,6 +41,8 @@
             parseInt(sum[3],),
         ];
 
+        let NaNError = arr[0] + arr[1] + arr[2];
+
         const maxValue = Math.max(...arr);
         let span = document.querySelector('#spanLabTwo');
         span.innerHTML = `Max{ ${arr[0]},${arr[1]},${arr[2]},${arr[3]} = ${maxValue} }`;
@@ -46,6 +52,9 @@
         } else if (input.length > 4) {
             console.error('Value > 4');
             span.innerHTML = `<div class="test"><span id="error">Помилка</span>: <u>значення бiльше 4</u>!</div>`
+        } else if (isNaN(NaNError)) {
+            console.error('Число == Nan');
+            span.innerHTML = `<div  class="test"><span id="error">Помилка</span>: значення дорівнює типу <u>NaN</u>!</div> `
         }
 
         console.log(arr, maxValue,span)

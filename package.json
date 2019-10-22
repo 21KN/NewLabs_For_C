@@ -1,0 +1,27 @@
+{
+  "name": "wisechannel",
+  "version": "1.0.2",
+  "description": "my labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiseChannel/NewLabs_For_C.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "C++"
+  ],
+  "author": "ArtMingo-GitHub/Telegram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiseChannel/NewLabs_For_C/issues"
+  },
+  "homepage": "https://github.com/WiseChannel/NewLabs_For_C#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^10.0.3"
+  }
+}

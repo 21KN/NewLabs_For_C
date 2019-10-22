@@ -1,7 +1,12 @@
 
 function getValue() {
     let input = document.querySelector('#OneLabInp').value;
-    let sum = input.split('',3);
+    let sum = input.split('', 3);
+    let arr = [
+        parseInt(sum[0],),
+        parseInt(sum[1],),
+        parseInt(sum[2],),
+    ];
 
     sum.forEach((sum) => {
         return sum[0] + sum[1] + sum[2]
@@ -9,21 +14,13 @@ function getValue() {
     });
     console.log(sum)
 
-    // for(let num of sum) {
-    //     let inner = sum.map((sum) =>{
-    //         return  num[0] + num[1] + num[2];
-    //     });
-    //     console.log(inner, sum, num)
-    // }
+    if(input.length > 3) {
+        console.error('Value > 3') // дописать проверку на количество вводимых данных
+    }
 
-    // let result = sum.reduce( (sum,result) => {
-    //     return sum + result
-    // });
 
-    console.log(sum);
+    console.log(`${arr[0]} + ${arr[1]} + ${arr[2]} = `,arr[0] + arr[1] + arr[2]);
+    let span = document.querySelector('#spanTextValue');
+    span.innerHTML = `${arr[0]} + ${arr[1]} + ${arr[2]} = ${arr[0] + arr[1] + arr[2]}`;
 }
-
-
-let mus = [1,2,3]
-let result = mus[0] + mus[1] + mus[2];
 

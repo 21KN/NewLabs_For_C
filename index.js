@@ -50,7 +50,7 @@
         let span = document.querySelector('#spanLabTwo');
         span.innerHTML = `Max{ ${arr[0]},${arr[1]},${arr[2]},${arr[3]} = ${maxValue} }`;
         if(input.length < 4) {
-            console.error('Value > 4');
+            console.error('Value < 4');
             span.innerHTML = `<div class="test"><span id="error">Помилка</span>: <u>значення менше 4</u>!</div>`
         } else if (input.length > 4) {
             console.error('Value > 4');

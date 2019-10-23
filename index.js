@@ -103,6 +103,88 @@
         console.log(inputValue)
     }
 
+    //#Lab4
+
+    function maxMinValue() {
+        const inputx1 = document.querySelector('#inputFourLabx1').value;
+        const inputx2 = document.querySelector('#inputFourLabx2').value;
+        const inputx3 = document.querySelector('#inputFourLabx3').value;
+        const inputx4 = document.querySelector('#inputFourLabx4').value;
+        const span = document.querySelector('#spanLabFour');
+
+        let maxValue =  Math.max(inputx1, inputx2, inputx3, inputx4);
+        let minValue = Math.min(inputx1, inputx2, inputx3, inputx4);
+
+        if (inputx1 === maxValue) {
+            span.innerHTML = `x1 = ${inputx1} max `;
+        } else if (inputx1 === minValue) {
+            span.innerHTML = `x1 = ${inputx1} min `;
+        } else {
+            span.innerHTML = `x1 = ${inputx1}`;
+        }
+
+        // if (inputx2 === maxValue) {
+        //     span.innerHTML = `x2 = ${inputx2} max<br>`;
+        // } else if (inputx1 === minValue) {
+        //     span.innerHTML = `x2 = ${inputx2} min<br>`;
+        // } else {
+        //     span.innerHTML = `x2 = ${inputx2}<br>`;
+        // }
+        //
+        // if (inputx3 === maxValue) {
+        //     span.innerHTML = `x3 = ${inputx3} max<br>`;
+        // } else if (inputx1 === minValue) {
+        //     span.innerHTML = `x3 = ${inputx3} min<br>`;
+        // } else {
+        //     span.innerHTML = `x3 = ${inputx3}<br>`;
+        // }
+        //
+        // if (inputx4 === maxValue) {
+        //     span.innerHTML = `x4 = ${inputx4} max<br>`;
+        // } else if (inputx1 === minValue) {
+        //     span.innerHTML = `x4 = ${inputx4} min<br>`;
+        // } else {
+        //     span.innerHTML = `x4 = ${inputx4}<br>`;
+        // }
+
+        // if (inputx2 === maxValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx2} max`
+        // } else if (inputx2 === minValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx2} min`
+        // } else if (inputx2 > minValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx2}`
+        // }
+        //
+        // if (inputx3 === maxValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx3} max`
+        // } else if (inputx3 === minValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx3} min`
+        // } else if (inputx3 > minValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx3}`
+        // }
+        //
+        // if (inputx4 === maxValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx4} max`
+        // } else if (inputx4 === minValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx4} min`
+        // } else if (inputx4 > minValue) {
+        //     span.innerHTML = ` <br>x1 = ${inputx4}`
+        // }
+
+
+        // if (true) {
+        //     span.innerHTML = ` <br>x1 = ${inputx1} <br> x2 = ${inputx2} <br> x3 = ${inputx3} <br> x4 = ${inputx4}`;
+        // }
+
+
+        console.log(maxValue)
+
+
+
+
+
+    }
+
 
 
                            //OOP+ES6_Class   +реализовать все при помощи класов

@@ -18,11 +18,22 @@ body img {
     flex-direction: column;
 }
 
-#OneLabInp, #inputTwoLab, #inputThereLab {
+#OneLabInp, #inputTwoLab, #inputThereLab  {
     font-size: 30px;
     width: 50%;
     margin: 0 auto;
 }
+
+#inputFourLabx1, #inputFourLabx2, #inputFourLabx3, #inputFourLabx4 {
+    font-size: 30px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.inptFour {
+    margin: 25px 0;
+}
+
 
 .row {
     align-items: center;
@@ -35,7 +46,7 @@ body img {
     padding: 25px 0;
 }
 
-#button, #submitTwoLab, #submitThereLab {
+#button, #submitTwoLab, #submitThereLab, #submitFourLab {
     margin: 25px 0;
     font-size: 20px;
 }

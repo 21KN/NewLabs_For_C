@@ -123,29 +123,30 @@
             span.innerHTML = `x1 = ${inputx1}`;
         }
 
-        // if (inputx2 === maxValue) {
-        //     span.innerHTML = `x2 = ${inputx2} max<br>`;
-        // } else if (inputx1 === minValue) {
-        //     span.innerHTML = `x2 = ${inputx2} min<br>`;
-        // } else {
-        //     span.innerHTML = `x2 = ${inputx2}<br>`;
-        // }
-        //
-        // if (inputx3 === maxValue) {
-        //     span.innerHTML = `x3 = ${inputx3} max<br>`;
-        // } else if (inputx1 === minValue) {
-        //     span.innerHTML = `x3 = ${inputx3} min<br>`;
-        // } else {
-        //     span.innerHTML = `x3 = ${inputx3}<br>`;
-        // }
-        //
-        // if (inputx4 === maxValue) {
-        //     span.innerHTML = `x4 = ${inputx4} max<br>`;
-        // } else if (inputx1 === minValue) {
-        //     span.innerHTML = `x4 = ${inputx4} min<br>`;
-        // } else {
-        //     span.innerHTML = `x4 = ${inputx4}<br>`;
-        // }
+        if (inputx2 === maxValue) {
+            let maxInptx2 = inputx2
+            span.innerHTML = `x2 = ${inputx2} max<br>`;
+        } else if (inputx1 === minValue) {
+            span.innerHTML = `x2 = ${inputx2} min<br>`;
+        } else {
+            span.innerHTML = `x2 = ${inputx2}<br>`;
+        }
+
+        if (inputx3 === maxValue) {
+            span.innerHTML = `x3 = ${inputx3} max<br>`;
+        } else if (inputx1 === minValue) {
+            span.innerHTML = `x3 = ${inputx3} min<br>`;
+        } else {
+            span.innerHTML = `x3 = ${inputx3}<br>`;
+        }
+
+        if (inputx4 === maxValue) {
+            span.innerHTML = `x4 = ${inputx4} max<br>`;
+        } else if (inputx1 === minValue) {
+            span.innerHTML = `x4 = ${inputx4} min<br>`;
+        } else {
+            span.innerHTML = `x4 = ${inputx4}<br>`;
+        }
 
         // if (inputx2 === maxValue) {
         //     span.innerHTML = ` <br>x1 = ${inputx2} max`

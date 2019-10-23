@@ -1,4 +1,5 @@
 
+    //#1Lub
 
     function getValueLabOne() {
         let input = document.querySelector('#OneLabInp').value;
@@ -31,6 +32,8 @@
 
     }
 
+    //#2Lub
+
     function getValueLabTwo() {
         let input = document.querySelector("#inputTwoLab").value;
         let sum = input.split('', 4);
@@ -60,16 +63,48 @@
         console.log(arr, maxValue,span)
     }
 
+    //#Lub3
 
-function getValueThereLab() {
-    let inputValue = document.querySelector('#inputThereLab').value;
-    const unsigned = 1;
-    const signed = 1;
+    function getValueThereLab() {
 
-    console.log(inputValue)
+        let inputValue = document.querySelector('#inputThereLab').value;
+        let numValueBit = null;
 
-}
+        //numVer
+
+        const int = 4;            //32 под разрядный проц выделяют 4 байта, под 16 2
+        const char = 1;           // выделают дин.количество памяти, обычно это 1 байт
+        const bool = 1;
+        const float = 4;
+        const double = 8;         // x2 от float
+
+        //specifierVer
+
+        const short = null;
+        const long = null;
+        const signed = null;
+        const unsigned = null;
+
+        //add signed
+
+        const signedLongInt = 4;      // 4байт
+
+        //add unsigned
 
 
 
-    //OOP+ES6_Class
+        //Filter
+
+        if (inputValue === 3) {
+
+        }
+
+
+        console.log(inputValue)
+    }
+
+
+
+                           //OOP+ES6_Class   +реализовать все при помощи класов
+
+

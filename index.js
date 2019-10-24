@@ -181,9 +181,6 @@
         console.log(maxValue)
 
 
-
-
-
     }
 
 
@@ -191,3 +188,30 @@
                            //OOP+ES6_Class   +реализовать все при помощи класов
 
 
+    class allLabs {
+        constructor() {
+
+        }
+
+        LabOne() {
+
+        }
+
+        LabTwo() {
+
+        }
+
+        LabThere() {
+
+        }
+
+        LabFour() {
+
+        }
+
+        LabFive() {
+
+        }
+
+
+    }

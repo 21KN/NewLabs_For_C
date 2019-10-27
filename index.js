@@ -73,7 +73,7 @@
         //numVer
 
         let valueInteger = {
-            int: 2,
+            int: 2.5,
             char: 1,
             bool: 1,
             float: 8,
@@ -111,7 +111,7 @@
 
 
         console.log(inputValue)
-        console.log(test)
+        console.log(Math.round(test))
     }
 
     //#Lab4

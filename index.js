@@ -20,7 +20,7 @@
 
         spanT.innerHTML = `<div class="test"> ${arr[0]} + ${arr[1]} + ${arr[2]} = ${NaNError} </div>`;
 
-        if(input.length > 3) {
+        if (input.length > 3) {
             console.error('Value > 3');
             spanT.innerHTML = `<div  class="test"><span id="error">Помилка</span>: значення бiльше <u>3</u>!</div> `
         } else if (input.length < 3) {
@@ -73,6 +73,7 @@
 
         //numVer
 
+
         // 1 2
         // 2 4
         // 3 8
@@ -92,6 +93,17 @@
         интерпретируется как часть числа, в противном случае нулевой бит интерпретируется как знаковый.
         https://myrobot.ru/stepbystep/pr_variables.php
          */
+
+        // let valueInteger = {
+        //     int: 2.5,
+        //     char: 1,
+        //     bool: 1,
+        //     float: 8,
+        //     double: 8
+        // };
+
+      //  const test = inputValue * valueInteger.int;
+
 
         const int = 4;            //32 под разрядный проц выделяют 4 байта, под 16 2
         const char = 1;           // выделают дин.количество памяти, обычно это 1 байт
@@ -146,6 +158,7 @@
          */
 
         console.log(inputValue)
+        console.log(Math.round(test))
     }
 
     //#Lab4
@@ -181,6 +194,7 @@
                                          `;
 
         // if (inputx2 === maxValue) {
+        //     let maxInptx2 = inputx2
         //     span.innerHTML = `x2 = ${inputx2} max<br>`;
         // } else if (inputx1 === minValue) {
         //     span.innerHTML = `x2 = ${inputx2} min<br>`;
@@ -238,6 +252,7 @@
 
     }
 
+
     //#Lab5
 
     function LabFive() {
@@ -292,7 +307,4 @@
         }
 
     }
-
-
-
 

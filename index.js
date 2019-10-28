@@ -17,6 +17,7 @@
         console.log(`${arr[0]} + ${arr[1]} + ${arr[2]} = `, NaNError);
 
         let spanT = document.querySelector('#spanTextValue');
+
         spanT.innerHTML = `<div class="test"> ${arr[0]} + ${arr[1]} + ${arr[2]} = ${NaNError} </div>`;
 
         if(input.length > 3) {
@@ -72,6 +73,26 @@
 
         //numVer
 
+        // 1 2
+        // 2 4
+        // 3 8
+        // 4 16
+        // 5 32
+        // 6 64
+        // 7 12;
+        // 8 256
+        // 9 512
+        // 10 1024
+        // 11 2048
+
+
+        /*
+        Ключевые слова (модификаторы) signed и unsigned указывают, как интерпретируется нулевой бит
+        объявляемой переменной, т.е., если указано ключевое слово unsigned, то нулевой бит
+        интерпретируется как часть числа, в противном случае нулевой бит интерпретируется как знаковый.
+        https://myrobot.ru/stepbystep/pr_variables.php
+         */
+
         const int = 4;            //32 под разрядный проц выделяют 4 байта, под 16 2
         const char = 1;           // выделают дин.количество памяти, обычно это 1 байт
         const bool = 1;
@@ -91,14 +112,38 @@
 
         //add unsigned
 
-
-
         //Filter
 
         if (inputValue === 3) {
 
         }
 
+        /*
+        C++ Code
+
+        #include <iostream>
+        #inclide <cmath>
+
+        using namespace std;
+
+        int main() {
+            int bytesNumber = 0;
+            cout << "Enter bytes" << endl;
+            cin >> bytesNumber;
+            cout << pow(2,bytesNumber);
+
+            int nameUnSugned = 0;
+            int nameSigned = 0;
+
+            for(int i = 0; i < bytesNumber; ++i) {
+                nameUnSigned += pow(2,i);
+                nameSigned += i < bytesNumber - 1 ? pow(2,i) : 0;
+            }
+            cout << endl << "Unsigned" << 0 << nameSigned
+            cout << endl << "Unsigned" << Signed+1 << nameUnSigned
+        }
+
+         */
 
         console.log(inputValue)
     }
@@ -111,17 +156,29 @@
         const inputx3 = document.querySelector('#inputFourLabx3').value;
         const inputx4 = document.querySelector('#inputFourLabx4').value;
         const span = document.querySelector('#spanLabFour');
+        const spanMin = document.querySelector('#spanLabFourMin');
+        const all = document.querySelector('#all');
 
         let maxValue =  Math.max(inputx1, inputx2, inputx3, inputx4);
         let minValue = Math.min(inputx1, inputx2, inputx3, inputx4);
 
-        if (inputx1 === maxValue) {
-            span.innerHTML = `x1 = ${inputx1} max `;
-        } else if (inputx1 === minValue) {
-            span.innerHTML = `x1 = ${inputx1} min `;
-        } else {
-            span.innerHTML = `x1 = ${inputx1}`;
-        }
+        const innerMax = () => {
+            if (inputx1 || inputx2 || inputx3 || inputx4 === maxValue) {
+                span.innerHTML = `max = ${maxValue}`;
+            }
+        };
+
+        const innerMin = () => {
+            if (inputx1 || inputx2 || inputx3 || inputx4 === minValue) {
+                spanMin.innerHTML = `min = ${minValue}`;
+            }
+        };
+
+        all.innerText = `x1 = ${inputx1} 
+                          x2 = ${inputx2} 
+                          x3 = ${inputx3}  
+                          x4 = ${inputx4} 
+                                         `;
 
         // if (inputx2 === maxValue) {
         //     span.innerHTML = `x2 = ${inputx2} max<br>`;
@@ -171,22 +228,71 @@
         //     span.innerHTML = ` <br>x1 = ${inputx4}`
         // }
 
-
         // if (true) {
         //     span.innerHTML = ` <br>x1 = ${inputx1} <br> x2 = ${inputx2} <br> x3 = ${inputx3} <br> x4 = ${inputx4}`;
         // }
-
+        innerMax()
+        innerMin()
 
         console.log(maxValue)
 
+    }
+
+    //#Lab5
+
+    function LabFive() {
+        const input = document.querySelector("#inputFiveLab").value;
+        const input2 = document.querySelector('spanLabFive2');
+
+        const result2 = () => {
+            if (input % 2 === 0) {
+                console.log('true : 2');
+                // input2.innerHTML = '2: yes';
+            } else {
+                console.log('false : 2')
+            }
+        };
+
+        const result3 = () => {
+            if (input % 3 === 0) {
+                return console.log('true : 3')
+            } else {
+                console.log('false : 3')
+            }
+        };
+
+        const result5 = () => {
+            if (input % 5 === 0) {
+                return console.log('true : 5')
+            } else {
+                console.log('false : 5')
+            }
+        };
+
+        const result11 = () => {
+            if (input % 11 === 0) {
+                return console.log('true : 11')
+            } else {
+                console.log('false : 11')
+            }
+        };
 
 
+        result2();
+        result3();
+        result5();
+        result11();
 
+        // console.log(typeof result2.bind())
+
+        if (typeof result2 && typeof result3 && typeof result5 && typeof result11 === true) {
+            console.log('Combo')
+        } else {
+            console.log('Almost prime [fixed]')
+        }
 
     }
 
 
-
-                           //OOP+ES6_Class   +реализовать все при помощи класов
 
 
